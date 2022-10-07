@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.button{
+    font-size: 16px;
+    line-height: 21px;
+    border-radius: 100px;
+    padding: 11px 30px;
+    font-weight: 700;
+    border: 2px solid  #FFCC00 ;
+ }
+ .button_primary{
+    background-color: #ffcc00;
+    color: #000;
+ }
+ .button_outline{
+    background-color:transparent;
+    color:#ffcc00;
+ }
+.header{
+    width: 100%;
+    background-color: #5F5F5F;
+    }
+ .header_inner{
+    width: 100%;
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ } 
+ .header_nav{
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .heaer_nav_link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #FFFFFF;
+    text-decoration: none;
+ }
+ .header_contact{
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+ } 
+ .phone{
+    text-decoration: none;
+ }
+ .phone_text{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+ }
+ .header_button{
+    margin-left: 30px;
+    font-weight: 500;
+ }
